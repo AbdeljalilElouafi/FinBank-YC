@@ -7,13 +7,11 @@ public class Client extends Person {
     private String idClient;
     private HashMap<String, Compte> comptes = new HashMap<>();
 
-//    public Client(String idClient, String nom, String prenom, String email, String motDePasse) {
-//        super(nom, prenom, email, motDePasse);
-//        this.idClient = idClient;
-//    }
+    public Client(String idClient, String nom, String prenom, String email, String motDePasse) {
+        super(nom, prenom, email, motDePasse);
+        this.idClient = idClient;
+    }
 
-
-    public Client(String idClient, String nom,)
 
     public String getIdClient() { return idClient; }
 
