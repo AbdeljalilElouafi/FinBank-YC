@@ -5,7 +5,6 @@ import main.java.com.finbank.exceptions.NegativeAmountException;
 import main.java.com.finbank.exceptions.InsufficientFundsException;
 
 import javax.naming.InsufficientResourcesException;
-import javax.swing.plaf.nimbus.State;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
